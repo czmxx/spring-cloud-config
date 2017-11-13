@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhsot:8008
+server:
+  port: 8009
+
+
