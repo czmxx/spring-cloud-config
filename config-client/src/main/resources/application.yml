@@ -4,8 +4,11 @@ spring:
   cloud:
     config:
       label: master
-      profile: dev
+      profile:
       uri: http://localhsot:8008
+
+
+
 server:
   port: 8009
 

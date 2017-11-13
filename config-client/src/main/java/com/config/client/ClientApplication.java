@@ -15,7 +15,7 @@ public class ClientApplication {
     }
 
 
-    @Value("${foo}")
+    @Value("${server.port}")
     String foo;
 
     @RequestMapping("hi")

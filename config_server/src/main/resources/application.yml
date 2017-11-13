@@ -5,11 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/czmxx/spring-cloud-config
           default-label: master
+          search-paths: config-profile
 #          username:
 #          password:
-          search-paths: respo
 
 server:
   port: 8008
