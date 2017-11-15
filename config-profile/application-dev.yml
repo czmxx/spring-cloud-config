@@ -5,7 +5,7 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhsot:8009
+      uri: http://localhsot:8888
 server:
   port: 8889
 
